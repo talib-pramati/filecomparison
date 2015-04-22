@@ -8,7 +8,7 @@ public class FileComparision {
 		
 		String firstSourceFilePath = "Files/File1.txt";
 		String secondSourceFilepath = "Files/File2.txt";
-		String outPutFilePath = "File/result.text";//default path for output file
+		String outPutFilePath = "Files/result.text";//default path for output file
 		
 		if(args.length >2 && args[2] != null)
 		{
