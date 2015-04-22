@@ -8,13 +8,8 @@ public class FileComparision {
 		
 		String firstSourceFilePath = "Files/File1.txt";
 		String secondSourceFilepath = "Files/File2.txt";
-		String outPutFilePath = "Files/result.text";//default path for output file
+		String outPutFilePath = "Files/result.text";
 		
-		if(args.length >2 && args[2] != null)
-		{
-			outPutFilePath = args[2];
-		}
-
 		FileManager fileManager = new FileManager();
 
 		Set<String> contentOfFirstFile = fileManager.readFile(firstSourceFilePath);
